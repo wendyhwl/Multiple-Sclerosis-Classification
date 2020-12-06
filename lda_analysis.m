@@ -99,7 +99,7 @@ plot(obsEarly(:,13),'Color','b','DisplayName','early obs')
 hold on
 plot(obsAd(:,13),'Color','r','DisplayName','advanced obs')
 hold off
-title('Volumn')
+title('Volume')
 legend('show','Location','northwest')
 
 figure(4)
@@ -107,7 +107,7 @@ histogram(obsEarly(:,13),'BinWidth',3,'FaceColor','b','DisplayName','early obs')
 hold on
 histogram(obsAd(:,13),'BinWidth',3,'FaceColor','r','DisplayName','advanced obs')
 hold off
-title('Volumn in histogram')
+title('Volume in histogram')
 legend('show','Location','northwest')
 
 
